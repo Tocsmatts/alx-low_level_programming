@@ -6,7 +6,7 @@
  *
  * @c: is an integer
  *
- * Returns: Returns 0 on success
+ * Return: Returns 0 on success
  */
 int _isalpha(int c)
 {
