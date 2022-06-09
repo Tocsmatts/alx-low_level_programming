@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - code that prints Buzz, Fuzz and FizzBuzz
+ *
+ * Return: Return 0 on success
+ */
 int main(void)
 {
 	int a;
