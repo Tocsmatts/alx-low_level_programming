@@ -9,5 +9,18 @@
  */
 void print_rev(char *s)
 {
-	printf("%s", strrev(s));
+	char rev[1000];
+	int a, b, count = 0;
+
+	while (s[count] != '\0')
+	{
+		count++;
+	}
+	b = count - 1;
+	for (a = 0; a < count; a++)
+	{
+		rev[a] = s[b];
+		b--;
+	}
+	printf("%s\n", rev);
 }
