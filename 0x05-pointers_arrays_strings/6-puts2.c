@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * puts2 - prints string divisible by 2
@@ -13,12 +14,12 @@ void puts2(char *str)
 	{
 		if (str[countStr] == '\0')
 		{
-			_putchar('\n');
+			printf("\n");
 			break;
 		}
 		if (countStr % 2 == 0)
 		{
-			_putchar(str[countStr]);
+			printf("%c", str[countStr]);
 		}
 		countStr++;
 	}
