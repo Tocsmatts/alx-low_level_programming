@@ -24,7 +24,7 @@ void puts_half(char *str)
 			}
 			else
 			{
-				printf("%c", str[count]);
+				_putchar(str[count]);
 			}
 			count++;
 		}
@@ -41,7 +41,7 @@ void puts_half(char *str)
 			}
 			else
 			{
-				printf("%c", str[count]);
+				_putchar(str[count]);
 			}
 			count++;
 		}
