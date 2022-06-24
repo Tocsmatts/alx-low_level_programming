@@ -20,5 +20,10 @@ int main(int argc, char *argv[])
 		}
 		printf("%d\n", mul);
 	}
+	else if (argc != 3)
+	{
+		printf("Error\n");
+		return (1);
+	}
 	return (0);
 }
