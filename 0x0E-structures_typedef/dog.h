@@ -13,12 +13,9 @@
  */
 struct dog
 {
-	if (d)
-	{
-		char *name;
-		float age;
-		char *owner;
-	}
+	char *name;
+	float age;
+	char *owner;
 };
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
