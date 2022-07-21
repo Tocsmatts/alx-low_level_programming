@@ -1,0 +1,24 @@
+#include "main.h"
+
+/**
+ * binary_to_unit - converts a binary number to an unsigned int
+ * @b: a char
+ * Return: unsigned int
+ */
+unsigned int binary_to_unit(const char *b)
+{
+	unsigned int bin, dec = 0;
+	int i;
+
+	if (b == NULL)
+		return (0);
+
+	bin = atoi(b);
+
+	for (i = 0; bin; i++, bin /= 10)
+	{
+		if (bin % 10)
+			dec += pow(2, i);
+	}
+	return (dec);
+}
