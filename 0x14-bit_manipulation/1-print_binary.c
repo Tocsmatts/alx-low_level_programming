@@ -11,10 +11,10 @@ void print_binary(unsigned long int n)
 	{
 		if (n >> 1)
 			print_binary(n >> 1);
-		printf("%ld", ((n & 1) + '0' - 48));
+		_putchar((n & 1) + '0');
 	}
 	else
 	{
-		printf("0");
+		_putchar('0');
 	}
 }
